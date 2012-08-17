@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>externarousel Demo</title>
+    <link href="extRating.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="extRating.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript">
+        $(document).ready(function () {
+          $("#rating_input").extRating({
+            activeStarPath: 'activeStar.png',
+            inactiveStarPath: 'inactiveStar.png',
+            numberOfStars: 10
+          });
+        });
+    </script>
+</head>
+<body>
+  <a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+  <div style="margin-left: 100px;">
+    <h1>extRating demo</h1>
+    <div style="margin-top: 70px;">
+      <label for="rating_input">Rating</label>
+      <div>
+        <input id="rating_input" name="rating" type="text" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

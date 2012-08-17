@@ -11,3 +11,5 @@ $(document).ready(function () {
   });
 });
 ```
+
+# [Demo](http://extern.github.com/extRating/index.html)
